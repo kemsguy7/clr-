@@ -56,15 +56,15 @@
 }
 
 .filter-data-container .col-md-6.d-flex .serial-number {
-    padding-left: 4rem; /* Adjust the value as needed */
+    padding-left: 8rem; /* Adjust the value as needed */
 }
 
 .filter-data-container .col-md-6.d-flex .created-at {
-    padding-left: 2rem; /* Adjust the value as needed */
+    padding-left: 4rem; /* Adjust the value as needed */
 }
 
 .filter-data-container .col-md-6.d-flex .date-time {
-    margin-left: 2rem; /* Adjust the value as needed */
+    margin-left: 3rem; /* Adjust the value as needed */
 }
 
 
