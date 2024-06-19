@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.outer-box{
-    
+.outer-box {
+    /* Add any necessary styling here */
 }
 
 .outer-box .main-area {
@@ -14,19 +14,47 @@
 }
 
 .outer-box .main-area .inner-box {
-background-color: rgb(225 213 231);
+    background-color: rgb(225, 213, 231);
+    height: 100vh;
 }
 
-.outer-box .main-area .inner-box .search-form{
-   padding: 1rem;
-   margin-top: 0.1rem;
-   
+.outer-box .main-area .inner-box .search-form {
+    padding: 1rem;
+    margin-top: 0.1rem;
 }
 
-.outer-box .main-area .inner-box  .data-section {
-    margin: 4 1rem;
-    background-color: rgb(213 232 212 );    
+.outer-box .main-area .inner-box .data-section {
+   // margin: 4 1rem;
+    background-color: rgb(213, 232, 212);
     border: 2px solid green;
 }
 
+.filter-data-container {
+    background-color: white;
+    //padding: 2rem;
+    border: 2px solid black;
+    margin-left: 0 1rem;
+    
+}
 
+.filter-data-container .crl-items {
+    
+    background-color: rgb(255, 230, 204, 1);
+    margin-left:  0.1rem;
+    margin-right: 0.1rem;
+    margin-bottom: 1rem;
+    border: 2px solid rgb(228, 187, 83);
+}
+
+.filter-data-container .row .btn {
+    margin-right: 0.5rem;
+}
+.filter-data-container .row input[type="checkbox"] {
+    font-size: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.filter-data-container .row:last-child {
+    margin-bottom: 7rem;
+}
