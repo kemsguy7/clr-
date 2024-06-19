@@ -20,11 +20,13 @@ background-color: rgb(225 213 231);
 .outer-box .main-area .inner-box .search-form{
    padding: 1rem;
    margin-top: 0.1rem;
+   
+}
+
+.outer-box .main-area .inner-box  .data-section {
+    margin: 4 1rem;
+    background-color: rgb(213 232 212 );    
+    border: 2px solid green;
 }
 
 
-
-.outer-box .main-area .inner-box .data-section {
-    padding: 0 23rem;
-    margin-top: 0.1rem;
-}
