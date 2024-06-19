@@ -55,6 +55,19 @@
     height: 2rem;
 }
 
+.filter-data-container .col-md-6.d-flex .serial-number {
+    padding-left: 4rem; /* Adjust the value as needed */
+}
+
+.filter-data-container .col-md-6.d-flex .created-at {
+    padding-left: 2rem; /* Adjust the value as needed */
+}
+
+.filter-data-container .col-md-6.d-flex .date-time {
+    margin-left: 2rem; /* Adjust the value as needed */
+}
+
+
 .filter-data-container .row:last-child {
     margin-bottom: 7rem;
 }
